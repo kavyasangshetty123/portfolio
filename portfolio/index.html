@@ -1,13 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css">
 </head>
+
 <body>
-  <a href="./assets/index.html">PORTFOLIO</a>
-  <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css">
+  <main>
+    <nav class="navbar navbar-dark bg-dark" aria-label="Dark offcanvas navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dark offcanvas navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">Offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <div class="container my-5">
+    <div class="bg-body-tertiary p-5 rounded">
+      <div class="col-sm-8 py-5 mx-auto">
+        <h1 class="display-5 fw-normal">Navbar with offcanvas examples</h1>
+        <p class="fs-5">This example shows how responsive offcanvas menus work within the navbar. For positioning of navbars, checkout the <a href="../examples/navbar-static/">top</a> and <a href="../examples/navbar-fixed/">fixed top</a> examples.</p>
+        <p>From the top down, you'll see a dark navbar, light navbar and a responsive navbar—each with offcanvases built in. Resize your browser window to the large breakpoint to see the toggle for the offcanvas.</p>
+        <p>
+          <a class="btn btn-primary" href="../components/navbar/#offcanvas" role="button">Learn more about offcanvas navbars &raquo;</a>
+        </p>
+    </div>
+    </div>
+  </div>
+ 
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">About Me<span class="text-body-secondary"></span></h2>
+            <p class="lead">My name is Kavya N sangshetty. I'm a graduate of 2023 from  Poojya Doddappa Appa College of Engineering at Kalaburagi with a degree in Electronics and Communication Engineering.</p><br><br>
+            <p><a class="btn btn-primary" href="./assets/KAVYA RESUME.docx">My Resume &raquo;</a></p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+              height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title></title>
+              <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+                fill="var(--bs-secondary-color)" dy=".3em"></text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br>
+  <div class="container">
+    <center><h2>PROJECTS</h2></center>
+    <div class="row">
+      <div class="col">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div  class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary-emphasis"></strong>
+                <h3 class="mb-0"></h3>
+                <div class="mb-1 text-body-secondary"></div>
+                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis"></strong>
+                <h3 class="mb-0">FULL STACK NOTES</h3>
+                <div class="mb-1 text-body-secondary"></div>
+                <p class="mb-auto">A complete notes on Full Stack Development using Bootstrap.</p>
+                <a href="https://kavyasangshetty123.github.io/practice/" class="icon-link gap-1 icon-link-hover stretched-link">
+                  Continue reading
+                  <svg class="bi"><use xlink: href="https://kavyasangshetty123.github.io/practice/"></svg>
+                
+                </a>
+              </div>
+      </div>
+    </div>
+  </div>
+  
+
+    <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css">
 </body>
+
 </html>
